@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Add Ranger"-->
+    <!--android:textSize="44sp"-->
+    <!--android:layout_marginTop="22dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:id="@+id/AddRangerText"/>-->
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftAcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+            >
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftAavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftAtext"
+                            android:layout_alignEnd="@+id/aircraftAtext"
+                            android:src="@drawable/red" />
+
+                    <TextView
+                            android:id="@+id/aircraftAtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft A"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftBcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftBavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftBtext"
+                            android:layout_alignEnd="@+id/aircraftBtext"
+                            android:src="@drawable/green" />
+
+                    <TextView
+                            android:id="@+id/aircraftBtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft B"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftCcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftCavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftCtext"
+                            android:layout_alignEnd="@+id/aircraftCtext"
+                            android:src="@drawable/green" />
+
+                    <TextView
+                            android:id="@+id/aircraftCtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft C"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftDcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftDavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftDtext"
+                            android:layout_alignEnd="@+id/aircraftDtext"
+                            android:src="@drawable/green"
+                    />
+
+                    <TextView
+                            android:id="@+id/aircraftDtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft D"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftEcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftEavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftEtext"
+                            android:layout_alignEnd="@+id/aircraftEtext"
+                            android:src="@drawable/red"/>
+
+                    <TextView
+                            android:id="@+id/aircraftEtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft E"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/aircraftFcardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/aircraftFavailable"
+                            android:layout_width="50dp"
+                            android:layout_height="65dp"
+                            android:layout_alignRight="@+id/aircraftFtext"
+                            android:layout_alignEnd="@+id/aircraftFtext"
+                            android:src="@drawable/red"/>
+
+                    <TextView
+                            android:id="@+id/aircraftFtext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="Aircraft F"
+                            android:textSize="50dp"
+
+                    />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--<Button-->
+            <!--android:id="@+id/addRangerConfirmButton"-->
+            <!--android:layout_width="212dp"-->
+            <!--android:layout_height="97dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:text="Confirm" />-->
+
+    <!--<Button-->
+            <!--android:id="@+id/addRangerCancelButton"-->
+            <!--android:layout_width="210dp"-->
+            <!--android:layout_height="97dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_toRightOf="@+id/addRangerConfirmButton"-->
+            <!--android:text="Cancel" />-->
+
+</RelativeLayout>
